@@ -1,0 +1,92 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    width:1200px ;
+    justify-content: center;
+    align-items: center;  
+}
+.form{
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 5px 7px 7px 5px  rgb(95, 95, 79);
+    margin-top: 20px;
+    text-align: center;
+    padding: 32px;
+}
+#weight{
+    border: 1px rgb(94, 86, 91) solid;
+    
+}
+#height{
+    border: 1px rgb(94, 86, 91) solid;
+}
+h1{
+    padding: 30px ;
+    color: aliceblue;   
+}
+#h1{
+    color: rgb(119, 52, 93);
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+h1 span{
+    color: rgb(167, 51, 118);
+    font-weight: 100;
+    font-size:35px ;
+   
+}
+p{
+    margin-bottom: 20px;
+    color: rgb(77, 18, 57);
+    font-size: larger;
+    font-weight: bold;
+   
+}
+#btn{
+    margin: 20px;
+    background-color: rgb(77, 16, 49);
+    border:2px rgb(70, 70, 64) ;
+    border-radius: 5px;
+    padding:4px 4px;
+    width: 150px;
+    margin-left:80px;
+    margin-top: 40px;  
+    color: rgb(133, 124, 130);  
+}
+
+@media screen and (max-width:400px){
+    #btn{
+        background-color: rgb(65, 21, 55);
+        margin-right:70px;
+        padding: -10px;
+    }
+}
+@media screen and (min-width:400px) {
+    #btn{
+        margin-right:80px;
+        padding: -10px;
+    }
+}
+@media screen and (max-width:375px) {
+    #btn{
+        margin-left:60px ;
+    }
+}
+#p2{
+    margin-top: 10px;
+}
+#p2{
+    color: rgb(119, 52, 93);
+    font-weight:bolder;
+    font-size: x-large;
+}
+    
